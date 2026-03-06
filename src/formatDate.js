@@ -29,7 +29,7 @@ function formatDate(date, fromFormat, toFormat) {
   }
 
   if (year.length === 2) {
-    year = +year < 26 ? '20' + year : '19' + year;
+    year = +year < 30 ? '20' + year : '19' + year;
   }
 
   const shortYear = year.slice(-2);
